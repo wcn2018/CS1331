@@ -15,7 +15,7 @@ public class TemperatureConverter{
 			k = Integer.parseInt(inp);
 		}
 		Double fl = ((double)k)*9/5 - 459.67; 
-		System.out.printf(inp + " Kelvin is %6.2f"+" degrees Fahrenheit\n", fl);
+		System.out.printf(inp + " Kelvin is %3.2f degrees Fahrenheit\n", fl);
 		//how does the %.2f stuff work
 		Kelvin.close();
 	}
