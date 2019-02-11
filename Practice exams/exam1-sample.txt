@@ -1,0 +1,99 @@
+
+           CS 1331 EXAM 1 SAMPLE QUESTIONS
+
+
+   1. Define the following terms:
+      a. Instantiation
+      b. Bytecode
+      c. Encapsulation
+      d. Compiler
+      e. Relational operator
+      f. Method signature
+
+
+   2. Write the value and the data type of the expression in the space
+      provided below 
+      a.  7 - (6 * (5 * (3 / 1.5))) + 2
+      b.  6 - 3 * 4 + 5 / 2
+      c.  (((8 + 3) + (10 % 3)) * (5 - 3))
+      d.  19 % 10 / 6
+      e.  (int) (5.0/3)
+      f.  9 / (float)3 + 2 - (7 / 2)
+
+
+   3. Write a class named StringFun that reads a string (possibly multiple
+      words) from the user and then prints out the first and last
+      character from that string back to the user. 
+
+
+   4. The following code segment has a compilation error.  Explain what
+      the error will be and why it will occur.
+   
+      float val;
+      double d1, d2;
+      d2 = 10.0;
+      d1 = d2 / 2;
+      val = 4 + (2.0 * d1);
+      System.out.println("the value is " + val);
+   
+
+   5. Assume you are using the Random class, write a line of code that
+      returns
+      a. One of the following random integers: 10, 100, 1000.
+      b. A random real number between 0.3 and 0.4
+
+
+   6. What does the following code print when
+       a) m=7 n=7    b) m=3 n=5     c) m=0 n=2
+
+     // read in integers m and n   
+     int z = ((m > 0) && (m == n-2)) ? m+1 : n+1;
+     switch (z) {
+        case 0:
+          System.out.println(z);
+          break;
+        case 1:
+        case 2:
+          System.out.println(z);
+          System.out.println("could be either");
+        case 3:
+          System.out.println("Getting bigger");
+          break;
+        default:
+          System.out.println("Nothing specific");
+        }
+
+
+   7. Write a segment of code that given an integer n (here 5), prints out
+      1 1 1 1 1
+      2 2 2 2
+      3 3 3
+      4 4
+      5
+
+
+   8. Suppose that the hypothetical froogle function, fr(x), is
+      calculated as absol((x-1) * (x+1)) where absol(x) is the
+      absolute value of x. 
+
+      Write a program that reads in a double value for x from the
+      user, calculates fr(x), and then prints it out.
+
+
+   9. Write a segment of code that, given an integer array a which is
+      filled with values, creates a new second array that is twice as
+      long. In the first half of the array should be all of the same
+      values as in the first, and in the second half of the array
+      should be the values that are twice as large as the corresponding
+      ones in the initial array.
+
+
+   10. What's wrong with the following code segment?
+
+      int i,j;
+      String[] names;
+      names[0] = new String("mary");
+      names[1] = "john";
+      i = names.length;
+      j = names[0].length();
+
